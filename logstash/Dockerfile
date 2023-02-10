@@ -1,3 +1,4 @@
+#failed to solve with frontend dockerfile.v0: failed to create LLB definition: ENV must have two arguments
 ENV VERSION
 # https://github.com/elastic/logstash-docker
 FROM docker.elastic.co/logstash/logstash-oss:${VERSION:-6.3.1}
