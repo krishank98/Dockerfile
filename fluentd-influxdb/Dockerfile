@@ -1,3 +1,4 @@
+#unable to find user fluent: no matching entries in passw
 FROM fluent/fluentd
 USER root
 ENV FLUENTD_CONF=fluent.conf
