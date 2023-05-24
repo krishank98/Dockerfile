@@ -1,3 +1,4 @@
+
 FROM alpine
 ENV GO_VERSION 1.15.2
 RUN apk add --no-cache ca-certificates && echo 'hosts: files dns' > /etc/nsswitch.conf
